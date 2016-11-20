@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">"Conteo preliminar "</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="txtEmail">Email</string>
+    <string name="lblPassw">Password</string>
+    <string name="txtclave">Dame tu contraseña</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnCrear">crear cuenta</string>
+    <string name="title_activity_login">login</string>
+</resources>
