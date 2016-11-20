@@ -48,30 +48,44 @@
                 android:layout_marginTop="25dp"
                 android:visibility="visible" />
 
-            <EditText
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Email"
-                android:ems="10"
-                android:id="@+id/ptEma"
-                android:textAlignment="center"
-                android:textSize="25sp"
-                android:textColor="@color/negro"
-                android:layout_marginTop="50dp" />
+                android:layout_height="wrap_content">
 
-            <EditText
+                <EditText
+                    android:id="@+id/ptEma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:ems="5"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_marginTop="25dp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="Password"
-                android:ems="10"
-                android:id="@+id/ptPas"
-                android:textAlignment="center"
-                android:textSize="25sp"
-                android:textColor="@color/negro"
-                android:layout_marginTop="25dp" />
+                android:layout_height="wrap_content">
 
+                <EditText
+                    android:id="@+id/ptPas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:ems="5"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:layout_marginTop="25dp" />
+
+            </android.support.design.widget.TextInputLayout>
             <Button
                 android:text="Entrar"
                 android:layout_width="match_parent"
